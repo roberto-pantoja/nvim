@@ -1,11 +1,11 @@
 return {
-  "neovim/nvim-lspconfig",            -- core LSP config
   "williamboman/mason.nvim",          -- manage LSP servers
-  "williamboman/mason-lspconfig.nvim",-- link mason + lspconfig
   "hrsh7th/nvim-cmp",                 -- completion engine
   "hrsh7th/cmp-nvim-lsp",             -- LSP source
+  "hrsh7th/cmp-buffer",               -- buffer completions
+  "hrsh7th/cmp-path",                 -- path completions
   "L3MON4D3/LuaSnip",                 -- snippets
+  "saadparwaiz1/cmp_luasnip",         -- snippet completions
   "jose-elias-alvarez/null-ls.nvim",  -- formatting/diagnostics
-  "mfussenegger/nvim-dap",            -- debugger
 }
 
